@@ -1,0 +1,25 @@
+{
+  "name": "brisjsmongoose",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha ./tests/tests.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.0.0-rc.6",
+    "bcrypt": "^0.8.7",
+    "chai": "^3.5.0",
+    "lodash": "^4.13.1",
+    "mongodb": "^2.1.18",
+    "mongoose": "^4.5.2"
+  },
+  "devDependencies": {
+    "mocha": "^2.5.3"
+  }
+}
